@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Clock</title>
+</head>
+<body>
+    <div class="center">
+  
+        <h1>Pomodoro Clock</h1>
+      
+      <div class="setting">
+        <div class="break">
+          <div class="description">Break Length</div>
+          <div class="value">
+            <span class="control" id="dec-break-btn">-</span><span class="time" id="break-value">5</span><span class="control" id="inc-break-btn">+</span>
+          </div>
+        </div>
+        
+        <div class="session">
+          <div class="description">Session Length</div>
+          <div class="value">
+            <span class="control" id="dec-session-btn">-</span><span class="time" id="session-value">25</span><span class="control" id="inc-session-btn">+</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="pomodoro">
+        <div id="fill-session"></div>
+        <div id="fill-break"></div>
+        <div id="timer">25:00</div>
+        <div id="status">Click Here to Start</div>
+      </div>
+      
+      <div>
+        <div id="next-btn">Next</div>
+        <div id="reset-btn">Reset</div>
+      </div>
+      
+      <div class="footer">
+       Code by <a href="https://codepen.io/RobinHaider/" target="_blank">Robin</a>,
+        Design inspiration from Gabriel Nunes
+    </div>
+      
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+    background-color: #2A2C31;
+    color: #FFFEDF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+  cursor: default;
+  width: 450px;
+  margin: auto;
+  display: block;
+  position: relative;
+  text-shadow: 0px 1px 1px #191919;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+/*Settings............................ */
+.setting {
+  width: 350px;
+  display: table;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.break {
+  float: left;
+  width: 100px;
+}
+
+.session {
+  float: right;
+  width: 108px;
+}
+
+.description {
+  font-size: 15px;
+}
+
+.session .description {
+    color: #2ecc71;
+  }
+
+.break .description {
+    color: #e74c3c;
+  }
+
+.value {
+  font-size: 30px;
+}
+
+.control {
+  cursor: pointer;
+  font-size: 32px;
+}
+.control:hover { color: #95a5a6;}
+
+.time { padding: 0px 10px;}
+
+
+
+/*Pomodoro................. */
+.pomodoro {
+  cursor: pointer;
+  border: 3px #2ecc71 solid;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+  
+}
+
+#timer {
+  top:32%;
+  left: 10%;
+  position:absolute;
+  width:250px;
+  text-align:center;
+  font-size:60px;  
+  z-index:4;
+}
+
+#status {
+  bottom: 35%;
+  left: 10%;
+  position: absolute;
+  text-align: center;
+  font-size:15px;
+  width:250px;
+  z-index:4;
+}
+
+#next-btn {
+  float: left;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+#reset-btn {
+  float: right;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 30px;
+}
+/*Fill color.... */
+#fill-session {
+  background: #2ecc71;
+  width: 0%; /* in this case 20% would be the current progress */
+  border-radius: 50%;
+  height: 100%;
+  top:0%;
+  left:0%;
+  position:absolute;
+  z-index: 2;
+}
+
+
+/*footer............ */
+.footer {
+  clear:both;
+  width:100%;
+  padding-top:40px;
+  padding-bottom:25px;
+  font-size: 12px;
+  text-align:center;
+  }
+.footer a {
+  color:#2ecc71;
+  text-decoration:none;
+  font-weight:600;
+  }
+

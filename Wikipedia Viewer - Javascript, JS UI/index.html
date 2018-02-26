@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    
+    <link rel="stylesheet" href="https://rawgit.com/bomholtm/fcc/master/_assets/css/jquery-ui1114.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Wikipedia Viewer</title>
+</head>
+<body>
+    
+    <div class="container">
+      
+      <div class="box">
+      <div>
+       
+        <div class="row">
+      <img class="img-responsive img" src="https://rawgit.com/bomholtm/fcc/master/_assets/CODEPEN/wikipedia_viewer/wikipedia_init.png">
+        </div>
+        
+        <div class="col-center-block input-btns">
+          <div class="row">
+      <input id="search-box" type="search">
+          </div>
+          <div class="row">
+      <button class="button" id="search-btn">Wikipedia Search</button>
+      <a class="button" id="feeling-lucky" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">I'm Feeling Lucky</a>
+          </div>
+        </div>
+          
+      </div>
+      
+      </div>
+      
+      <div class="after-search">
+        <div class="top-bar">
+          <img class="img-responsive img-after" src="https://rawgit.com/bomholtm/fcc/master/_assets/CODEPEN/wikipedia_viewer/wikipedia_init.png">
+         <input id="search-box-after" type="search">
+          <button id="top-bar-button" type="button" ><i class="fa fa-search"></i></button>
+        </div>
+        
+        <div class="search-result">
+          <!--<br>
+          <p>There were no results matching the query.</p>
+          <p>The page "adfjas;dlfja;lskdf" does not exist. You can ask for it to be created.</p>
+          <ul>
+            <li>Make sure that all words are spelled correctly.</li>
+            <li>Try different keywords.</li>
+            <li>Try more general keywords.</li>
+          </ul>-->
+          
+          <!--
+          <div class="content">
+            <h4>Life</h4>
+            <p>Life is a characteristic that distinguishes physical entities that do have biological processes, such as signaling and self-sustaining processes, from those that do not, either because such functions have ceased, or because they never had such functions and are classified as inanimate.</p>
+            <hr>
+            <a href="#">Read More</a>
+            <a href="#">Edit Source</a>
+          </div>
+          
+          <div class="content">
+            
+            <h4>Life</h4>
+            <p>Life is a characteristic that distinguishes physical entities that do have biological processes, such as signaling and self-sustaining processes, from those that do not, either because such functions have ceased, or because they never had such functions and are classified as inanimate.</p>
+            <hr>
+            <a href="#">Read More</a>
+             <a href="#">Edit Source</a>
+          </div>
+          -->
+        </div>
+        
+        
+      </div>
+      
+      
+      
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
